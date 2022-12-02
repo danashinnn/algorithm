@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 
 class Solution {
     public ArrayList<Integer> solution(int n) {
