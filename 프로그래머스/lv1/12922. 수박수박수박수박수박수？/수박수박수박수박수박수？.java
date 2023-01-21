@@ -1,5 +1,5 @@
 class Solution {
     public String solution(int n) {
-        return "수박".repeat(n/2) + "수".repeat(n%2);
+        return new String(new char [n/2+1]).replace("\0", "수박").substring(0,n);
     }
 }
